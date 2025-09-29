@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    tools:context=".AdminMainActivity"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonAdminEditUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Edit Users" />
+
+        <Button
+            android:id="@+id/buttonAdminEditBranches"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Edit Branches" />
+
+        <Button
+            android:id="@+id/buttonAdminEditServices"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Edit Services" />
+</LinearLayout>

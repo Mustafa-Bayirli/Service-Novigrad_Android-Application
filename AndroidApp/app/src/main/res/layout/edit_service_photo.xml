@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBoxFormPhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstNamePhoto2"
+            android:gravity="center_horizontal"
+            android:hint="Form"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <CheckBox
+            android:id="@+id/firstNamePhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center_horizontal"
+            android:hint="First Name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <CheckBox
+            android:id="@+id/lastNamePhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center_horizontal"
+            android:hint="Last Name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <CheckBox
+            android:id="@+id/birthdayPhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:hint="Birthday"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <CheckBox
+            android:id="@+id/addressPhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Address"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <CheckBox
+            android:id="@+id/checkboxDocumentPhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/residencePhoto2"
+            android:gravity="center_horizontal"
+            android:hint="Documents"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <CheckBox
+            android:id="@+id/residencePhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="residence" />
+
+        <CheckBox
+            android:id="@+id/photoPhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="photo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editServicePhoto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update" />
+
+            <Button
+                android:id="@+id/buttonBackCreatePhoto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Back" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

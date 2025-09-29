@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/adminTextViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select User to Edit"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/adminBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adminTextViewTop"
+        android:layout_weight="1"
+        android:layout_centerInParent="true"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/adminTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adminBackButton"
+        android:text="Users"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/listViewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminTextView">
+    </ListView>
+
+</RelativeLayout>

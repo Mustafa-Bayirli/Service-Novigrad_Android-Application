@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    tools:context=".AdminMainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/updateAddressText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/buttonUpdateAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/buttonBackAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Back" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+October 18:
+- Revised System Domain Model
+- Updated the app manifest to make LoginActivity the Launcher activity
+- Updated Gradle from 4.0.2 to 4.1.0
+- Added RegisterActivity
+- Fixed all errors (probably)
+- Changed methods so depreciated ones aren't getting called and breaking everything
+
+October 17:
+- Revised Exploratory Domain Model
+- Created System Domain Model
+
+October 16:
+- Created and finished draft of Exploratory Domain Model
+
+October 15:
+- Created Github Team
+- Initial commit
+- Created android app project in the repository
+- Wrote the backend java code for the SQLite database (needs to be tested)
+- Wrote the code for the two activities for the login procedure
+- Edited the XML of each of the activities
+- Added 
+	username: admin
+	password: 123admin456
+	(this doesn't work, it needs to be fixed)
+  to the database to attempt logins
