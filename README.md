@@ -75,10 +75,10 @@ SERVICE-NOVIGRAD/
 5. Run on emulator or device
 
 ### APK Generation
-\`\`\`bash
+```bash
 ./gradlew assembleDebug
-APK location: app/build/outputs/apk/debug/app-debug.apk
-\`\`\`
+# APK location: app/build/outputs/apk/debug/app-debug.apk
+
 
 ---
 
@@ -92,10 +92,10 @@ The application uses SQLite with multiple tables:
 ---
 
 ## 🧪 Testing
-Run unit tests:
-\`\`\`bash
-./gradlew test
-\`\`\`
+- Run unit tests:
+- \`\`\`bash
+- ./gradlew test
+- \`\`\`
 
 Run instrumented tests:
 \`\`\`bash
