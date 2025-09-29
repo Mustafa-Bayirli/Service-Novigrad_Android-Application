@@ -77,7 +77,6 @@ SERVICE-NOVIGRAD/
 ### APK Generation
 \`\`\`bash
 ./gradlew assembleDebug
-
 APK location: app/build/outputs/apk/debug/app-debug.apk
 \`\`\`
 
