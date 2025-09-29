@@ -10,23 +10,23 @@ A complete Android application for the fictional province of Novigrad, providing
 ## 🏗️ Project Structure
 
 SERVICE-NOVIGRAD/
-├── app/
-│   ├── src/main/java/com/example/project_notgoingtofail/
-│   │   ├── AdminMainActivity.java
-│   │   ├── AdminBranchEditingActivity.java
-│   │   ├── AdminUserEditingActivity.java
-│   │   ├── BranchEmployeeActivity.java
-│   │   ├── CustomerActivity.java
-│   │   ├── CustomerServiceActivity.java
-│   │   ├── LoginActivity.java
-│   │   ├── RegisterActivity.java
-│   │   ├── MainActivity.java
-│   │   └── ErrorActivity.java
-│   ├── src/androidTest/ - Instrumentation tests
-│   ├── src/test/ - Unit tests
-│   └── res/ - Resources and layouts
-├── sqlite/ - Database files
-└── Domain diagram.pdf - UML documentation
+- ├── app/
+- │   ├── src/main/java/com/example/project_notgoingtofail/
+- │   │   ├── AdminMainActivity.java
+- │   │   ├── AdminBranchEditingActivity.java
+- │   │   ├── AdminUserEditingActivity.java
+- │   │   ├── BranchEmployeeActivity.java
+- │   │   ├── CustomerActivity.java
+- │   │   ├── CustomerServiceActivity.java
+- │   │   ├── LoginActivity.java
+- │   │   ├── RegisterActivity.java
+- │   │   ├── MainActivity.java
+- │   │   └── ErrorActivity.java
+- │   ├── src/androidTest/ - Instrumentation tests
+- │   ├── src/test/ - Unit tests
+- │   └── res/ - Resources and layouts
+- ├── sqlite/ - Database files
+- └── Domain diagram.pdf - UML documentation
 
 ---
 
@@ -77,7 +77,7 @@ SERVICE-NOVIGRAD/
 ### APK Generation
 \`\`\`bash
 ./gradlew assembleDebug
-# APK location: app/build/outputs/apk/debug/app-debug.apk
+APK location: app/build/outputs/apk/debug/app-debug.apk
 \`\`\`
 
 ---
